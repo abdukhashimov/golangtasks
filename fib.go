@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func fib(number int) int {
 	firstStep := 0
 	secondSetp := 1
@@ -25,7 +23,7 @@ func fibRec(number int) int {
 	return fibRec(number-1) + fibRec(number-2)
 }
 
-func main() {
-	fmt.Println(fibRec(8))
-	fmt.Println(fib(8))
-}
+// func main() {
+// 	fmt.Println(fibRec(8))
+// 	fmt.Println(fib(8))
+// }
