@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+// package main
 
 func oddEvenSum(nums ...int) (int, int) {
 	var oddSum, evenSum int = 0, 0
@@ -15,7 +13,7 @@ func oddEvenSum(nums ...int) (int, int) {
 	return oddSum, evenSum
 }
 
-func main() {
-	nums := []int{1, 2, 3, 4}
-	fmt.Println(oddEvenSum(nums...))
-}
+// func main() {
+// 	nums := []int{1, 2, 3, 4}
+// 	fmt.Println(oddEvenSum(nums...))
+// }
