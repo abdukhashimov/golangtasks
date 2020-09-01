@@ -1,6 +1,6 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
 func palindrom(word string) bool {
 	length := len(word) - 1
@@ -12,6 +12,6 @@ func palindrom(word string) bool {
 	return true
 }
 
-func main() {
-	fmt.Println(palindrom("0011100"))
-}
+// func main() {
+// 	fmt.Println(palindrom("0011100"))
+// }
