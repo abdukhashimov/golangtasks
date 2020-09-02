@@ -13,5 +13,6 @@ func (t tasks) display() {
 }
 
 func main() {
-
+	task := tasks{id: 1, name: "Madiyor", done: false}
+	task.display()
 }
