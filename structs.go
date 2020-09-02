@@ -4,3 +4,10 @@ struct Tasks {
     done bool
 }
 
+func (t Tasks) display() {
+    
+}
+
+func main() {
+    
+}
